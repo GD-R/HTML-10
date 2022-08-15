@@ -31,7 +31,7 @@ main::before {
 }
 
 nav {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -61,7 +61,7 @@ img[src="/images/call.png"] {
 }
 
 section {
-    padding: 3rem;
+    padding: 1rem;
     position: relative;
 }
 
@@ -70,7 +70,7 @@ h1 {
 }
 
 .right-sec {
-   padding: 4rem;
+   padding: 1rem;
 }
 
 .right-sec button {
@@ -91,7 +91,7 @@ h1 {
     position: absolute;
     /* display: inline-block; */
     padding: 2rem 2rem;
-    top: 2rem;
+    top: 2.7rem;
     right: 8rem;
 }
 
@@ -139,7 +139,7 @@ h1 {
     position: absolute;
     /* display: inline-block; */
     padding: 2rem 2rem;
-    bottom: 4rem;
+    bottom: -7rem;
     right: 25rem;
 }
 
@@ -175,3 +175,178 @@ h1 {
     right: -0.5rem;
 }
 
+@media screen and (max-width: 640px) {
+   
+    nav {
+        margin-bottom: 0rem;
+        padding: 0.5rem;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    section {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .right-sec {
+        margin: 0rem;
+        padding: 0rem;
+        text-align: center;
+    }
+
+    .right-sec button {
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .right-sec h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    .card1 {
+        position: relative;
+        width: 80%;
+    }
+
+    .card2 {
+        position: relative;
+        width: 80%;
+    }
+
+    .glass1 {
+        position: static;
+        text-align: center;
+    }
+
+    .glass2 {
+        position: static;
+        text-align: center;
+    }
+
+
+    .card-sec img[alt="light"] {
+         width: 1rem;
+    }
+
+    .card-sec .line {
+      display: none;
+    }
+
+    .card-sec .line2 {
+        display: none;
+      }
+}
+
+@media screen and (min-width: 641px) and (max-width: 900px) {
+
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .contact {
+        display: none;
+    }
+    
+    .mobile-bar {
+        display: none;
+    }
+
+
+    section {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .right-sec {
+        margin: 0rem;
+        padding: 0rem;
+        text-align: center;
+    }
+
+    .right-sec button {
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .right-sec h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    .card1 {
+        position: relative;
+        width: 80%;
+    }
+
+    .card2 {
+        position: relative;
+        width: 80%;
+    }
+
+    .glass1 {
+        position: static;
+        text-align: center;
+    }
+
+    .glass2 {
+        position: static;
+        text-align: center;
+    }
+
+
+    .card-sec img[alt="light"] {
+         width: 1rem;
+    }
+
+    .card-sec .line {
+      display: none;
+    }
+
+    .card-sec .line2 {
+        display: none;
+      }
+
+   
+    
+}
+
+@media screen and (min-width: 901px) {
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .mobile-bar {
+        display: none;
+    }
+    
+}
